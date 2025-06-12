@@ -26,14 +26,14 @@ We'll be exploring particularly 2 endpoints available '/api/generate' (for singl
 
 
 We have concept of "Streaming vs. Non-Streaming" responses.  
-    - refers to how the API response is sent over HTTP to your client. It's controlled by the stream parameter in your request payload.
-    - By default, the '/api/chat' endpoint is streaming in nature, while the '/api/generate' endpoint is not. For both endpoints, you can explicitly control streaming behavior using the stream parameter in your request payload.
+- refers to how the API response is sent over HTTP to your client. It's controlled by the stream parameter in your request payload.  
+- By default, the '/api/chat' endpoint is streaming in nature, while the '/api/generate' endpoint is not. For both endpoints, you can explicitly control streaming behavior using the stream parameter in your request payload.
 
 
 We have concept of "Structured Output".  
-    - This is a different concept and refers to constraining the content of the LLM's response to adhere to a specific JSON schema. This is controlled by the format parameter in your request payload (typically set to "json" or a JSON schema definition)
+- This is a different concept and refers to constraining the content of the LLM's response to adhere to a specific JSON schema. This is controlled by the format parameter in your request payload (typically set to "json" or a JSON schema definition)
 
 
 Also how to create/update model. (by using Modelfile)   
-    - use above create command then run it.
-    - give prompt like 'Who are you' & it's response should be about superman if you use the given Modelfile as it is.
+- use above create command then run it.  
+- give prompt like 'Who are you' & it's response should be about superman if you use the given Modelfile as it is.
