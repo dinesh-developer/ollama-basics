@@ -4,15 +4,15 @@ Here we are learning some basic endpoints that ollama provides us. We'll hit the
 
 Below are few commands, you can play with them after installing ollama locally.
 
-Pull a model : ollama pull {model_name}
-Remove a model : ollama rm {model_name}
-Create a model : ollama create {desired_model_name} -f Modelfile
-Copy a model : ollama cp {model_name} {new_model_name}
-Show model information : ollama show {model_name}
-List models on your computer : ollama list
-List which models are currently loaded : ollama ps
-Stop a model which is currently running : ollama stop {model_name}
-Start Ollama : ollama serve  (used when you want to start ollama without running the desktop application.)
+. Pull a model : ollama pull {model_name}
+. Remove a model : ollama rm {model_name}
+. Create a model : ollama create {desired_model_name} -f Modelfile
+. Copy a model : ollama cp {model_name} {new_model_name}
+. Show model information : ollama show {model_name}
+. List models on your computer : ollama list
+. List which models are currently loaded : ollama ps
+. Stop a model which is currently running : ollama stop {model_name}
+. Start Ollama : ollama serve  (used when you want to start ollama without running the desktop application.)
 
 
 To see available model & installation checkout below links:
